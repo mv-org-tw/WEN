@@ -3,65 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="主播_文 (WEN) - 專業 CPM 遊戲創作者與 IT 工程師，專注於 Car Parking Multiplayer 改裝及高性能伺服器架構。">
-    <title>主播_文 (WEN) | Official Creator Profile</title>
-    <style>
-        :root { --primary: #ff0050; --bg: #ffffff; --text: #1a1a1a; --subtext: #666; --card: #f8f9fa; }
-        body { font-family: 'Inter', -apple-system, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.7; margin: 0; padding: 40px 20px; }
-        .container { max-width: 700px; margin: 0 auto; }
-        header { text-align: center; margin-bottom: 50px; }
-        h1 { font-size: 2.5rem; margin-bottom: 10px; }
-        .tagline { color: var(--primary); font-weight: 600; font-size: 1.1rem; }
-        section { margin-bottom: 40px; }
-        h2 { font-size: 1.5rem; border-left: 4px solid var(--primary); padding-left: 15px; margin-bottom: 20px; }
+    <title>WEN CPM 購物網站</title>
+
+    <!-- WordPress 產生的全域樣式 CSS 區塊 -->
+    <style id="global-styles-inline-css">
+        :root {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--primary: #337ab7;
+            --wp--preset--spacing--small: 20px;
+            --wp--preset--spacing--medium: 40px;
+        }
         
-        /* 新增圖片樣式 */
-        .hardware-img { width: 100%; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        
-        .platform-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
-        .platform-card { background: var(--card); padding: 20px; border-radius: 12px; text-align: center; border: 1px solid #eee; }
-        .platform-card h3 { margin: 0 0 10px 0; font-size: 1rem; color: var(--subtext); }
-        .cta-btn { display: block; background: var(--primary); color: white; text-align: center; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 5px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 10px; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            line-height: 1.6;
+        }
+
+        .is-layout-constrained {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--wp--preset--spacing--small);
+        }
+
+        header, footer {
+            padding: var(--wp--preset--spacing--medium);
+            background-color: #f4f4f4;
+            text-align: center;
+        }
     </style>
 </head>
-<body>
 
-<div class="container">
+<body>
+    <!-- 網站頂部 -->
     <header>
-        <h1>主播_文 (WEN)</h1>
-        <p class="tagline">「不僅僅是停車，是我的改裝人生！」</p>
+        <h1>WEN CPM 購物網站</h1>
     </header>
 
-    <section>
-        <h2>硬體技術背景</h2>
-        <!-- 插入您提供的圖片 -->
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPvy4Y9tfbbC9FFDfld4RiX_V1dmE-R8zBA&s" alt="Ryzen CPU Socket" class="hardware-img">
-        <p>作為一名專注於高性能硬體與伺服器管理的 IT 專業人員，我對架構的精密追求也同樣體現在遊戲改裝與內容創作中。精準的調校，是確保每一次性能輸出的關鍵。</p>
-    </section>
+    <!-- 主要內容區塊 -->
+    <main class="is-layout-constrained">
+        <section>
+            <h2>最新商品</h2>
+            <p>歡迎來到我們的購物平台，請瀏覽下方目錄。</p>
+        </section>
+    </main>
 
-    <section>
-        <h2>創作者定位</h2>
-        <p>專注於 《Car Parking Multiplayer》（CPM）的深度內容創作，結合頂尖駕駛技術、車輛改裝美學與社群互動。</p>
-    </section>
-
-    <section>
-        <h2>官方頻道</h2>
-        <div class="platform-grid">
-            <div class="platform-card">
-                <h3>TikTok</h3>
-                <p><strong>@tiktok_wen</strong></p>
-                <a href="https://tiktok.com/@tiktok_wen" class="cta-btn" target="_blank">前往 TikTok</a>
-            </div>
-            <div class="platform-card">
-                <h3>YouTube</h3>
-                <p><strong>@tiktok_wen</strong></p>
-                <a href="https://youtube.com/@tiktok_wen" class="cta-btn" target="_blank">前往 YouTube</a>
-            </div>
-        </div>
-    </section>
-</div>
-
+    <!-- 網站底部 -->
+    <footer>
+        <p>&copy; 2026 WEN CPM Engineering Team.</p>
+    </footer>
 </body>
 </html>
